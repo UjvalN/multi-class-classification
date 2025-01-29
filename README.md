@@ -8,5 +8,4 @@ The model reached an accuracy of 99.5%.
 ![image](https://github.com/user-attachments/assets/89afc631-cee9-44f8-8840-af1b4b6d8c56)
 
 ## Results
-Reached accur
 ![image](https://github.com/user-attachments/assets/20bc28cb-d5f7-46a8-9f94-f3da553fb73d)
