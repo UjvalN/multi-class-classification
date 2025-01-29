@@ -6,8 +6,12 @@ from main import model, X_blob_train, y_blob_train, X_blob_test, y_blob_test
 plt.figure(figsize=(12, 6))
 plt.subplot(1, 2, 1)
 plt.title("Train")
+plt.xlabel("x")
+plt.ylabel("y")
 plot_decision_boundary(model, X_blob_train, y_blob_train)
 
 plt.subplot(1, 2, 2)
 plt.title("Test")
+plt.xlabel("x")
+plt.ylabel("y")
 plot_decision_boundary(model, X_blob_test, y_blob_test)
