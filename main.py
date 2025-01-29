@@ -33,6 +33,7 @@ loss_fn = nn.CrossEntropyLoss()
 optimizer = torch.optim.SGD(params=model.parameters(),
                             lr=0.1)
 
+# Device-agnostic
 torch.manual_seed(RANDOM_SEED)
 torch.cuda.manual_seed(RANDOM_SEED)
 X_blob_train, y_blob_train = X_blob_train.to(device), y_blob_train.to(device)
@@ -40,6 +41,7 @@ X_blob_test, y_blob_test = X_blob_test.to(device), y_blob_test.to(device)
 
 epochs = 1000
 
+### Training
 for epoch in range(epochs):
   model.train()
 
