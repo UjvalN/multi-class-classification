@@ -1,7 +1,7 @@
 # multi-class-classification
 
 ## Description
-I created a simple multi classification model which classifies 4 different classes which were created using the make_circles function of scikit-learn datasets.
+I created a simple multi classification model which classifies 4 different classes which were created using the make_blobs function of scikit-learn datasets.
 The model reached an accuracy of 99.5%.
 
 ## Dataset
